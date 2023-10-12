@@ -1,0 +1,154 @@
+body {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* header section */
+header {
+    background-color:#99a57e;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #333c2c;
+}
+header p {
+    margin: 0;
+    color: #333c2c;
+    letter-spacing: .5px;
+}
+
+/* nav section */
+nav {
+    background-color: #b2a769;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #333c2c;
+    font-weight: 800;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #333c2c;
+    color: #b2a769;
+}
+nav a:hover {
+    color: white;
+}
+
+/* main section */
+
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color:#868254;
+}
+
+main h2 {
+    color: #333c2c;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+    width: 30%;
+}
+
+main dl dt {
+    color:#868254;
+    font-weight: 800;
+}
+main dl dd{
+    color: #333c2c;
+    font-size: .9rem;
+}
+main ol {
+    list-style-type: lower-roman;
+}
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #b2a769;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #333c2c;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #333c2c;
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+/* figure section */
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* gallery section */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color:#868254;
+}
+
+/* footer section */
+footer {
+    background-color: #99a57e;
+    text-align: center;
+    color: #333c2c;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear:both;
+}
+footer a {
+    color: #333c2c
+}
