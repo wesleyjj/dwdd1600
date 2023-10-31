@@ -8,7 +8,7 @@ body {
 
 
 
-/* header section */
+/* ---------------------------------------header section--------------------------------------- */
 header {
     background-color:#99a57e;
     padding: 1rem 2vw;
@@ -26,7 +26,7 @@ header p {
 
 
 
-/* nav section */
+/* ---------------------------------------nav section--------------------------------------- */
 nav {
     background-color: #b2a769;
 }
@@ -55,7 +55,7 @@ nav a:hover {
 
 
 
-/* main section */
+/* ---------------------------------------main section--------------------------------------- */
 
 main {
     padding: 1rem 2vw;
@@ -119,7 +119,7 @@ main a:hover {
 
 
 
-/* form section */
+/* ---------------------------------------form section--------------------------------------- */
 .myForm fieldset {
     border: 1px solid #333c2c;
     border-radius: 3px;
@@ -171,7 +171,7 @@ main a:hover {
 
 
 
-/* figure section */
+/* -------------------------------------figure section--------------------------------------- */
 figure.wrapped {
     width: 30%;
     margin: 0 0 0 2%;
@@ -191,7 +191,7 @@ figure.wrapped figcaption {
 
 
 
-/* gallery section */
+/* ---------------------------------------gallery section--------------------------------------- */
 div.gallery {
     display: flex;
     flex-wrap: wrap;
@@ -210,7 +210,7 @@ div.gallery figcaption {
 
 
 
-/* footer section */
+/* ---------------------------------------footer section--------------------------------------- */
 footer {
     background-color: #99a57e;
     text-align: center;
