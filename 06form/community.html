@@ -36,17 +36,17 @@
 
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="lblock">First Name*<input type="text" name="fname" required></label>
-                <label class="lblock">Last Name*<input type="text" name="lname" required></label>
-                <label class="lblock">Email* <input type="email" name="cust_email" required placeholder="user@example.com"></label>
-                <label class="lblock">Phone Number<input type="tel" name="phone" placeholder="987-555-1234"></label>
+                <label class="space">First Name*<input type="text" name="fname" required></label>
+                <label class="space">Last Name*<input type="text" name="lname" required></label>
+                <label class="space">Email* <input type="email" name="cust_email" required placeholder="user@example.com"></label>
+                <label class="space">Phone Number<input type="tel" name="phone" placeholder="987-555-1234"></label>
             </fieldset>
 
             <fieldset>
                 <legend>Trail Information</legend>
                 <fieldset>
                     <legend>Trail Name</legend>
-                    <label>
+                    <label class="space">
                         <select name="trail">
                             <option value="none">---</option>
                             <option value="angels_landing">Angel's Landing Trail</option>
@@ -64,31 +64,32 @@
                 </fieldset>
                 <fieldset>
                     <legend>Trail Type</legend>
-                    <label><input type="checkbox" name="porch" value="chosen"> Hiking</label>
-                    <label><input type="checkbox" name="deck" value="chosen"> Backpacking</label>
-                    <label><input type="checkbox" name="driveway" value="chosen"> Trail Running</label>
-                    <label><input type="checkbox" name="garage" value="chosen"> Casual</label>
+                    <label class="space"><input type="checkbox" name="porch" value="chosen"> Hiking</label>
+                    <label class="space"><input type="checkbox" name="deck" value="chosen"> Backpacking</label>
+                    <label class="space"><input type="checkbox" name="driveway" value="chosen"> Trail Running</label>
+                    <label class="space"><input type="checkbox" name="garage" value="chosen"> Casual</label>
                 </fieldset>
                 <fieldset>
                     <legend>Trail Difficulty</legend>
-                    <label><input type="radio" name="difficult" value="one">Easy</label>
-                    <label><input type="radio" name="difficult" value="two">Medium</label>
-                    <label><input type="radio" name="difficult" value="three">Hard</label>
+                    <label class="space"><input type="radio" name="difficult" value="one">Easy</label>
+                    <label class="space"><input type="radio" name="difficult" value="two">Medium</label>
+                    <label class="space"><input type="radio" name="difficult" value="three">Hard</label>
                 </fieldset>
                 <fieldset>
                     <legend>Rating</legend>
                     <p>Please rate the trail:</p>
-                    <label><input type="radio" name="rating" value="one">1★</label>
-                    <label><input type="radio" name="rating" value="two">2★</label>
-                    <label><input type="radio" name="rating" value="three">3★</label>
-                    <label><input type="radio" name="rating" value="four">4★</label>
-                    <label><input type="radio" name="rating" value="five">5★</label>
+                    <label class="space"><input type="radio" name="rating" value="one">1★</label>
+                    <label class="space"><input type="radio" name="rating" value="two">2★</label>
+                    <label class="space"><input type="radio" name="rating" value="three">3★</label>
+                    <label class="space"><input type="radio" name="rating" value="four">4★</label>
+                    <label class="space"><input type="radio" name="rating" value="five">5★</label>
                 </fieldset>
-                <label>Additional Comments
+
+                <label class="left">Additional Comments
                     <textarea name="comments"></textarea>
                 </label>
 
-                <label class="lblock" for="iimg">Upload photos of the trail:</label>
+                <label class="space" for="iimg">Upload photos of the trail:</label>
                     <input type="file" id="iimg" name="files" multiple><br><br>
             </fieldset>
 
