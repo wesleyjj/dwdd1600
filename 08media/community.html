@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Backpacking U.S.A: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Community repository of hiking and backpacking locations.">
+        <meta name="author" content="Wesley Johnson">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,800;1,300&display=swap" rel="stylesheet">
+        <link rel="icon" type="images/x-icon" href="favicon.ico">    
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="100px" height="92px">
+            <div>
+                <h1>Backpacking U.S.A</h1>
+                <p>Your one stop shop for backpacking and hiking locations.</p>
+            </div>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map.html">Maps</a></li>
+                <li class="active"><a href="community.html">Community</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+        <h1 id="community">Community</h1>
+
+        <p>Submit your comments about a trail using the form below:</p>
+            <!-- Start of form -->
+            <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="space">First Name*<input type="text" name="fname" required></label>
+                <label class="space">Last Name*<input type="text" name="lname" required></label>
+                <label class="space">Email* <input type="email" name="cust_email" required placeholder="user@example.com"></label>
+                <label class="space">Phone Number<input type="tel" name="phone" placeholder="987-555-1234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Trail Information</legend>
+                <fieldset>
+                    <legend>Trail Name</legend>
+                    <label class="space">
+                        <select name="trail">
+                            <option value="none">---</option>
+                            <option value="angels_landing">Angel's Landing Trail</option>
+                            <option value="navajo_loop">Navajo Loop and Queens Garden Trail</option>
+                            <option value="emerald_lake">Emerald Lake Trail</option>
+                            <option value="devils_bridge">Devil's Bridge Trail via Dry Creek Road</option>
+                            <option value="skyline">Skyline Trail Loop</option>
+                            <option value="vernal">Vernal and Nevada Falls via Mist Trail</option>
+                            <option value="ten_falls">Trail of Ten Falls</option>
+                            <option value="sky_pond">Sky Pond via GlacierGorge Trail</option>
+                            <option value="rattlesnake_ledge">Rattlesnake Ledge Trail</option>
+                            <option value="avalanche_lake">Avalanche Lake</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Trail Type</legend>
+                    <label class="space"><input type="checkbox" name="porch" value="chosen"> Hiking</label>
+                    <label class="space"><input type="checkbox" name="deck" value="chosen"> Backpacking</label>
+                    <label class="space"><input type="checkbox" name="driveway" value="chosen"> Trail Running</label>
+                    <label class="space"><input type="checkbox" name="garage" value="chosen"> Casual</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Trail Difficulty</legend>
+                    <label class="space"><input type="radio" name="difficult" value="one">Easy</label>
+                    <label class="space"><input type="radio" name="difficult" value="two">Medium</label>
+                    <label class="space"><input type="radio" name="difficult" value="three">Hard</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Rating</legend>
+                    <p>Please rate the trail:</p>
+                    <label class="space"><input type="radio" name="rating" value="one">1★</label>
+                    <label class="space"><input type="radio" name="rating" value="two">2★</label>
+                    <label class="space"><input type="radio" name="rating" value="three">3★</label>
+                    <label class="space"><input type="radio" name="rating" value="four">4★</label>
+                    <label class="space"><input type="radio" name="rating" value="five">5★</label>
+                </fieldset>
+
+                <label class="left">Additional Comments
+                    <textarea name="comments"></textarea>
+                </label>
+
+                <label class="space" for="iimg">Upload photos of the trail:</label>
+                    <input type="file" id="iimg" name="files" multiple><br><br>
+            </fieldset>
+
+            <input type="submit" value="Send Delivery Request">
+            </form>
+
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2023 &bull; Wesley Johnson &bull; <a href="mailto:10437650@uvu.edu">Email Us</a> </p>
+        </footer>
+    </body>
+</html>
