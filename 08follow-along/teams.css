@@ -179,10 +179,3 @@ footer {
 footer a {
     color: #8b5022;
 }
-
-
-/* footer stuff here */
-main, footer {
-    max-width: 64rem;
-    margin: 0 auto;
-}
